@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css" >
+    </head>
+    <body>
+      <div>
+      <a type="button" class="btn btn-primary float-right mr-1" href="index.html">Google</a>
+        <form id="form" action="https://google.com/search">
+      </div>
+        <table>
+          <tbody>
+            <tr>
+              <td><label>all these words:</label></td>
+              <td><input type="text" name="as_q"></td>
+          </tr>
+            <tr>
+              <td><label>this exact word or phrase:</label>
+              <td><input type="text" name="as_epq">
+          </tr>
+            <tr>
+              <td><label>any of these words:</label>
+              <td><input type="text" name="as_oq">
+          </tr>
+            <tr>
+              <td><label>none of these words:</label>
+              <td><input type="text" name="as_eq">
+          </tr>
+            <tr>
+              <td><input type="submit" class="btn btn-primary"
+                id="submit" value="Advanced Search">
+            </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
